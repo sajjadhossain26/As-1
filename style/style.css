@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1460px;
+  margin: auto;
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.nav-wrap .menu ul {
+  display: flex;
+}
+.nav-wrap .menu ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+.nav-wrap .menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-wrap .access-btn button {
+  border: none;
+  background-color: #30b868;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero section css*/
+.hero-section {
+  background-image: url("../assets/hero-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.hero-section h5 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  color: #136454;
+  border-radius: 5px;
+  display: flex;
+  max-width: 200px;
+  margin: auto;
+}
+.hero-section h1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+.hero-section span {
+  color: #30b868;
+}
+.hero-section p {
+  color: #ffffff;
+}
+.hero-section .hero-btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+.hero-section img {
+  width: 20px;
+  margin: 0px 10px;
+}
+.hero-section button {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font-size: 16px;
+  margin: 20px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  background-color: #30b868;
+  cursor: pointer;
+}
+.hero-section .withoutbg {
+  background-color: transparent;
+  border: 1px solid white;
+}

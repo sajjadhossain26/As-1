@@ -8,7 +8,6 @@ body {
 .container {
   max-width: 1460px;
   margin: auto;
-  text-align: center;
 }
 .nav-wrap {
   display: flex;
@@ -129,4 +128,33 @@ body {
   border-radius: 50%;
   padding: 20px;
   margin-top: 17px;
+}
+
+/*SOLUTION SECTION */
+.solution-section .solution-wrap .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 25, 49);
+  gap: 40px;
+}
+
+.solution-section .icon-list {
+  display: flex;
+  margin-top: 5px;
+}
+.solution-section .icon-list img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.solution-section .secondery-color {
+  color: rgba(70, 145, 101, 1);
+}
+.solution-section h1 {
+  margin: 20px 0px;
+}
+.solution-section .ex-gap {
+  margin: 20px 0px;
+  max-width: 400px;
 }
